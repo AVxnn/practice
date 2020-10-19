@@ -12,11 +12,11 @@ main{
     position: relative;
     background-color: #010101;
     display: flex;
-    width: 500px;
+    width: 290px;
     justify-content: center;
     flex-direction: column;
-    left: 40%;
     margin-top: 16%;
+    left: 40%;
 }
 
 main div{
@@ -73,5 +73,19 @@ div .text_block{
     }
     100% {
       background: #010101;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    main{
+        left: 40%;
+        margin-left: -60px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    main{
+        left: 30%;
+        margin-left: -60px;
     }
   }
